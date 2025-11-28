@@ -123,6 +123,7 @@ i {
 
 /* --- G5 // footer --- */
 .g5 {
+  
   grid-area: footer;
   margin-left: 200px;
   margin-right: 200px;
@@ -194,4 +195,11 @@ i {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.pink-divider-full {
+  border: none;
+  border-top: 5px dashed #ff7cb5;
+  width: 100%;          /* pega toda a largura da caixa */
+  margin: 15px 0;        /* espaço antes e depois */
 }
